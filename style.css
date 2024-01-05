@@ -11,7 +11,7 @@ body{
 
 #hero {
     background-color: aquamarine;
-    height: 450px;
+    height: 500px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -41,6 +41,9 @@ body{
     background-color: aquamarine;
 }
 
+#cardBoxPeople{
+    margin-top: 25px;
+}
 
 .footer{
     background-color: gray;
