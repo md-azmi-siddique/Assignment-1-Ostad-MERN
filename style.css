@@ -10,15 +10,26 @@ body{
 }
 
 #hero {
-    /* background-image: url('./assets/skills.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
     background-color: aquamarine;
-    height: 400px;
+    height: 450px;
     width: auto;
-    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#showAge{
+    display: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
 
 #card-age-check{
     margin-top: 10px;

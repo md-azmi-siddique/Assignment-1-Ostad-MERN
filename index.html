@@ -75,38 +75,55 @@
       </nav>
     </div>
 
-    <div id="hero" class=""></div>
+    <div id="hero" class="d-flex flex-column mb-3">
+      <div class="card mb-3" style="max-width: 540px;" id="showAge">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="..." id="showImg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title" id="showTitle"></h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus iusto beatae fugit harum adipisci esse incidunt corrupti ipsa hic enim magnam, necessitatibus soluta et maxime laudantium reprehenderit! Possimus, inventore!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h5 class="card-title">Calculate age</h5>
+        <p class="card-text">Please Enter the age below:</p>
+        <input type="number" id="inputAge" name="" min="0" />
+      </div>
+    </div>
 
     <div class="container" id="card-age-check">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <div class="col-md-6">
           <div class="card h-100">
             <img src="./assets/child.jpeg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Child</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae qui laudantium similique, ipsa et alias nemo, nulla odit, numquam fuga veniam a accusantium? A laborum ad veritatis fugit dolorum quod.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+                qui laudantium similique, ipsa et alias nemo, nulla odit,
+                numquam fuga veniam a accusantium? A laborum ad veritatis fugit
+                dolorum quod.
               </p>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <!-- <img src="..." class="card-img-top" alt="..." /> -->
-            <div class="card-body">
-              <h5 class="card-title">Calculate age</h5>
-              <p class="card-text">Please Enter the age below:</p>
-              <input type="number" id="inputAge" name="" min="0"/>
-            </div>
-          </div>
-        </div>
-        <div class="col">
+
+        <div class="col-md-6">
           <div class="card h-100">
             <img src="./assets/adult.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Adult</h5>
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae quod eaque quam recusandae totam eligendi nihil numquam atque nulla, incidunt itaque laboriosam voluptas. Praesentium illo alias atque adipisci placeat.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quaerat molestiae quod eaque quam recusandae totam eligendi
+                nihil numquam atque nulla, incidunt itaque laboriosam voluptas.
+                Praesentium illo alias atque adipisci placeat.
               </p>
             </div>
           </div>
@@ -115,7 +132,7 @@
     </div>
 
     <div class="footer">
-      <p class="footerLine">This is made with Md Azmi Siddique</p>
+      <p class="footerLine">Md Azmi Siddique</p>
     </div>
 
     <script src="script.js"></script>
