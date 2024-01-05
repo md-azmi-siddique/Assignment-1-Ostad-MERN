@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: gray;
+    color: white;
+}
+
+#hero {
+    /* background-image: url('./assets/skills.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: aquamarine;
+    height: 400px;
+    width: auto;
+    /* margin-top: 20px; */
+}
+
+#card-age-check{
+    margin-top: 10px;
+}
+
+#inputAge{
+    border: 1px solid blue;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+.footer{
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+}
+
+
+
